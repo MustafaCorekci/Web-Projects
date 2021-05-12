@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc362d1ba6fd4d3b822fb45bec983150" Name="Diagram1">
+        <EntityTypeShape EntityType="dbDiziYorumModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbDiziYorumModel.tblBlog" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbDiziYorumModel.tblHakkimizda" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbDiziYorumModel.tblIletisim" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbDiziYorumModel.tblKategori" Width="1.5" PointX="0.875" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbDiziYorumModel.tblTur" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbDiziYorumModel.tblYorum" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="dbDiziYorumModel.FK_tblBlog_tblKategori" ManuallyRouted="false" />
+        <AssociationConnector Association="dbDiziYorumModel.FK_tblBlog_tblTur" ManuallyRouted="false" />
+        <AssociationConnector Association="dbDiziYorumModel.FK_tblYorum_tblBlog" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="dbDiziYorumModel.tblAdmin" Width="1.5" PointX="7.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
